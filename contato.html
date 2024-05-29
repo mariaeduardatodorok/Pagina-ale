@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páginas Além - Contato</title>
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" />
+    <link href="img/logotipo.png" type="image\png" rel="icon" />
+</head>
+<footer id="rodape-cima">Primeira compra? Use o cupom PRIMEIRACOMPRA5</footer>
+
+<body>
+    <!--Cabeçalho do site-->
+    <header>
+        <a href="index.html">
+            <img id="logo" src="img/logotipo.png" alt="Logotipo Páginas Além" />
+        </a>
+        <form id="frm-cabecalho" action="#">
+            <input id="pesquisa" type="text" placeholder="Títulos, Autores, Gêneros e Linhas Editoriais" />
+        </form>
+        <img id="lupa" src="img/lupa.png" alt="Imagem de uma lupa" />
+
+    </header>
+    <!--imagem da home-->
+    
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="livros.html">LIVROS</a>
+            <a href="contato.html">CONTATO</a>
+        </nav>
+
+    </div>
+
+    <!--Miolo do site-->
+    <div id="container">
+        <h1>Fale Conosco</h1>
+        <p>
+            Obrigado por entrar em contato conosco. Sua mensagem é
+            muito importante para nós e vamos responder o mais
+            rápido possível.
+        </p>
+
+        <form action="#">
+            <div id="frm-container">
+                <div id="frm-labels">
+                    <p><label for="tipo-contato">Tipo de Contato</label></p>
+                    <p><label for="frm-nome">Nome</label></p>
+                    <p><label for="frm-email">E-mail</label></p>
+                    <p><label for="frm-fone">Telefone</label></p>
+                    <p><label for="frm-mensagem">Mensagem</label></p>
+                </div>
+                <div id="frm-fields">
+                    <p>
+                        <select name="tipo-contato">
+                           
+                            <option value="pedidos">Falar conosco</option>
+                            <option value="feedback">Críticas e sugestões</option>
+                            <option value="orcamento">Duvida</option>
+                            <option value="outros">Outros</option> 
+                        </select>
+                    </p>
+                    <p>
+                        <input name="frm-nome" type="text" placeholder="Digite seu nome" required>
+                    </p>
+                    <p>
+                        <input name="frm-nome" type="e-mail" placeholder="Digite seu e-mail" required>
+                    </p>
+                    <p>
+                        <input name="frm-fone" type="tel" placeholder="(11) 99999-999" required>
+                    </p>
+                    <p>
+                        <textarea name="frm-mensagem" rows="10" placeholder="Digite sua mensagem"></textarea>
+                    </p>
+                </div>
+            </div>
+            <div id="frm-buttons">
+                <button id="btn-enviar" type="submit" formaction="#" >Enviar</button>
+                <button id="btn-apagar" type="reset" >Apagar</button>
+            </div>
+        </form>
+    </div>
+
+    <br>
+    
+    <!--rodape do site-->
+    <footer>
+        <p>
+            <span>Páginas Além</span> <br />
+            Rua das Almas, 35 - Fantasminha - SP <br />
+            Telefone: (14) 64897-0808
+            <br>
+            <br>
+            Camily Yasmin, Júlia Macedo, Maria Eduarda
+        </p>
+    </footer>
+</body>
+
+</html>

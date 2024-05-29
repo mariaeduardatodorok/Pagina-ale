@@ -1,0 +1,446 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'Arkitech Medium';
+    src: url(../fonts/Arkitech\ Medium.ttf) format('truetype');
+}
+
+footer {
+    margin-top: auto;
+}
+
+header {
+    background-color: #161616;
+    width: 100%;
+    height: 110px;
+    display: flex;
+}
+
+#logo {
+    height: 80px;
+    padding: 15px 30px;
+}
+
+nav {
+    text-align: center;
+    padding: 15px 5px;
+    background-color: #212529;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+
+nav a:hover {
+    color: red;
+}
+
+#imagem-home {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/Captura\ de\ tela\ 2024-05-15\ 151711.png);
+    background-size: cover;
+    opacity: 0.9;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#soliciatar-orcamento:hover {
+    background-color: #ffde59;
+    color: #e8671f;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    height: 100px;
+    background-color: #212529;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+#container {
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 1900px;
+    margin: 0px auto;
+}
+
+#container h1 {
+    color: rgb(141, 4, 4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+
+#container p {
+    color: rgb(194, 192, 192);
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Arkitech Medium';
+    font-size: 26px;
+    padding: 45px 0px 20px 0px;
+}
+
+
+.box-servico {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    margin: 0px 15px;
+    justify-content: center;
+}
+
+#destaques-serviços {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+
+.box-servico img {
+    height: 180px;
+}
+
+.box-servico h2,
+p,
+a {
+    padding: 0px 20px;
+}
+
+.box-servico h2 {
+    background-color: lightslategray;
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.box-servico a {
+    text-decoration: none;
+    font-weight: bold;
+    color: lightslategray;
+}
+
+
+
+.box-servico:hover h2 {
+    background-color: rgb(160, 0, 0);
+}
+
+
+#rodape-cima {
+    background-color: rgb(160, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+#frm-cabecalho {
+    align-self: center;
+    padding-left: 150px;
+}
+
+#pesquisa {
+    border-radius: 10px;
+    height: 40px;
+    width: 800px;
+    padding-left: 15px;
+}
+
+#lupa {
+    height: 40px;
+    align-self: center;
+    padding-left: 30px;
+}
+
+#imagem-livro {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/livros.png);
+    background-size: cover;
+    opacity: 0.9;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#frm-container {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+#frm-labels {
+    padding-right: 15px;
+    text-align: right;
+}
+
+#frm-fields {
+    padding-left: 15px;
+    text-align: left;
+}
+
+#frm-container select,
+input,
+textarea {
+    width: 380px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    margin: 0px 15px;
+    border: 0px;
+}
+
+#btn-enviar {
+    background-color: #ff0000;
+    color: white;
+}
+
+#btn-apagar {
+    background-color: #c4c4c4;
+
+}
+
+#btn-enviar:hover {
+    background-color: rgb(0, 255, 34);
+    color: rgb(0, 0, 0);
+}
+
+#btn-apagar:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+
+#destaques-serviços2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+
+.box-servico1 {
+    background-color: white;
+    border: 1px solid lightslategray;
+    border-radius: 10px;
+    margin: 0px 15px;
+    justify-content: center;
+}
+
+.box-servico1 img {
+    height: 180px;
+}
+
+.box-servico1 h2,
+p,
+a {
+    padding: 0px 20px;
+}
+
+.box-servico1 h2 {
+    background-color: lightslategray;
+    font-size: 25px;
+    color: white;
+    padding: 15px 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.box-servico1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: lightslategray;
+}
+
+.box-servico1:hover h2 {
+    background-color: rgb(160, 0, 0);
+}
+
+#ver-detalhes {
+    border-radius: 15px;
+    height: 45px;
+    width: 300px;
+    background-color: rgb(160, 0, 0);
+    color: white;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.produto {
+    width: 300px;
+    height: 400px;
+    background-image: url('../img/livro-camily.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto1 {
+    width: 300px;
+    height: 400px;
+    background-image: url('../img/livro-julia.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto2 {
+    width: 300px;
+    height: 400px;
+    background-image: url('../img/livro-mari.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dados {
+    padding: auto auto;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+
+h3,
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding: 0px 10px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+.produto:hover>.dados {
+    display: block;
+}
+
+.produto1:hover>.dados {
+    display: block;
+}
+
+.produto2:hover>.dados {
+    display: block;
+}
+
+#container2 {
+    display: flex;
+    padding: 150px 0px;
+    justify-content: space-around;
+}
+
+.botao-1 {
+    border-radius: 15px;
+    height: 45px;
+    width: 150px;
+    background-color: #ff0000;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#conteudo-empresa {
+    display: flex;
+    padding-top: 30px;
+}
+
+#conteudo-empresa p {
+    text-align: justify;
+    margin-left: 10px;
+
+}
+
+#img-empresa {
+    height: 400px;
+    color: rgb(255, 255, 255)000;
+
+}
+
+#container h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#botao-ca {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(160, 0, 0);
+    width: 300px;
+    height: 45px;
+    color: white;
+    font-size: 17px;
+    border-radius: 15px;
+    border: none;
+}
+
+#paragrafo {
+    padding-left: 110px;
+}
+
+#container-julia{
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 1900px;
+    margin: 0px auto;
+    color: rgb(200, 200, 200);
+}
+
+#img-empresa-ju {
+    height: 400px;
+    color: rgb(255, 255, 255)000;
+   padding-top: 150px;
+}
